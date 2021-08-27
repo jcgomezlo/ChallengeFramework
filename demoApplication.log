@@ -1,0 +1,143 @@
+[main] DEBUG Authentication  - Test Iniciado
+  [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://api.themoviedb.org:443
+  [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to api.themoviedb.org:443
+  [main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+  [main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+  [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+  [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+  [main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+  [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1
+  [main] DEBUG org.apache.http.wire  -  >> "GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "Host: api.themoviedb.org[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+  [main] DEBUG org.apache.http.headers  - >> GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1
+  [main] DEBUG org.apache.http.headers  - >> Accept: */*
+  [main] DEBUG org.apache.http.headers  - >> Host: api.themoviedb.org
+  [main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+  [main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)
+  [main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+  [main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Date: Thu, 26 Aug 2021 18:17:37 GMT[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Server: openresty[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Access-Control-Expose-Headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Cache-Control: public, max-age=0[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Authentication-Callback: http://www.themoviedb.org/authenticate/579a6eeede32b78d527d1aad3dd227fb9d8b1475[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "ETag: W/"15da91063873065d3e50cc3c971572ee"[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Vary: Accept-Encoding[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "X-Cache: Miss from cloudfront[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Via: 1.1 064907318388ddb71d9d0db586a17f3a.cloudfront.net (CloudFront)[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "X-Amz-Cf-Pop: BOG50-C1[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "X-Amz-Cf-Id: uLICHfUozGt1vQKSGKGkv3OejhmrJibG4MalpBmzOrcIiDVMHZF3tg==[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+  [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+  [main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+  [main] DEBUG org.apache.http.headers  - << Content-Type: application/json;charset=utf-8
+  [main] DEBUG org.apache.http.headers  - << Transfer-Encoding: chunked
+  [main] DEBUG org.apache.http.headers  - << Connection: keep-alive
+  [main] DEBUG org.apache.http.headers  - << Date: Thu, 26 Aug 2021 18:17:37 GMT
+  [main] DEBUG org.apache.http.headers  - << Server: openresty
+  [main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+  [main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS
+  [main] DEBUG org.apache.http.headers  - << Access-Control-Expose-Headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range
+  [main] DEBUG org.apache.http.headers  - << Cache-Control: public, max-age=0
+  [main] DEBUG org.apache.http.headers  - << Authentication-Callback: http://www.themoviedb.org/authenticate/579a6eeede32b78d527d1aad3dd227fb9d8b1475
+  [main] DEBUG org.apache.http.headers  - << ETag: W/"15da91063873065d3e50cc3c971572ee"
+  [main] DEBUG org.apache.http.headers  - << Content-Encoding: gzip
+  [main] DEBUG org.apache.http.headers  - << Vary: Accept-Encoding
+  [main] DEBUG org.apache.http.headers  - << X-Cache: Miss from cloudfront
+  [main] DEBUG org.apache.http.headers  - << Via: 1.1 064907318388ddb71d9d0db586a17f3a.cloudfront.net (CloudFront)
+  [main] DEBUG org.apache.http.headers  - << X-Amz-Cf-Pop: BOG50-C1
+  [main] DEBUG org.apache.http.headers  - << X-Amz-Cf-Id: uLICHfUozGt1vQKSGKGkv3OejhmrJibG4MalpBmzOrcIiDVMHZF3tg==
+  [main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+  [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json;charset=utf-8
+  [main] DEBUG org.apache.http.wire  -  << "7c[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][\r][0xca][0xcb][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "[0xc2]0[0x10][0x5][0xd0]_)[0xb3]n[0xa1][0x99]4[0x9d]$[A[0xd7]%[0xe9]\A[0x4][0x1f]y[0x80] [0xfe]{=[0xeb][0xf3][0xa5][0xda][0xf7][0x1d][0xb5]Rl[0xa5]c$|^[0xb7][0x82][0xba][0xa5]F[0x91]xf3[0xcd]~[0xe2]u0![0x1a][0x89]V[0x86][0xcb][0xf9]D#[0x15][0xbc];j[0xdb][0xda][0xf3][0x8e][0xc7]:[0x9]i[0x5][0xa0][0xb0][0x9c][0xc5][0xab]cQ[0x93][0x92]ZUf[0xb9][0xe6][0xa0]>[0x9b]E[0x1c][0xfd][0xe]k[0xbf][0xcb]5r[0x0][0x0][0x0]"
+  [main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "0[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+  [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+  [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@83298d7
+  [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+  [main] DEBUG Authentication  - Test Iniciado
+  [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://api.themoviedb.org:443
+  [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to api.themoviedb.org:443
+  [main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+  [main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+  [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+  [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+  [main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+  [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1
+  [main] DEBUG org.apache.http.wire  -  >> "GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "Host: api.themoviedb.org[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+  [main] DEBUG org.apache.http.headers  - >> GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1
+  [main] DEBUG org.apache.http.headers  - >> Accept: */*
+  [main] DEBUG org.apache.http.headers  - >> Host: api.themoviedb.org
+  [main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+  [main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)
+  [main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+  [main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Date: Thu, 26 Aug 2021 18:18:38 GMT[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Server: openresty[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Access-Control-Expose-Headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Cache-Control: public, max-age=0[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Authentication-Callback: http://www.themoviedb.org/authenticate/52631ff99b5a4b6d286156a8d5d6b976d02a9bed[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "ETag: W/"0a05da9c496ebbaf7bba9829e567e481"[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Vary: Accept-Encoding[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "X-Cache: Miss from cloudfront[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "Via: 1.1 58e580cc043cb16a24dd53c7ad22b8d5.cloudfront.net (CloudFront)[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "X-Amz-Cf-Pop: BOG50-C1[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "X-Amz-Cf-Id: 2vjBD83tFTA83hf7ia6fDWRP_dyNrk9Rz_eDHQeizJuMZAvE1gfLxw==[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+  [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+  [main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+  [main] DEBUG org.apache.http.headers  - << Content-Type: application/json;charset=utf-8
+  [main] DEBUG org.apache.http.headers  - << Transfer-Encoding: chunked
+  [main] DEBUG org.apache.http.headers  - << Connection: keep-alive
+  [main] DEBUG org.apache.http.headers  - << Date: Thu, 26 Aug 2021 18:18:38 GMT
+  [main] DEBUG org.apache.http.headers  - << Server: openresty
+  [main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Origin: *
+  [main] DEBUG org.apache.http.headers  - << Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS
+  [main] DEBUG org.apache.http.headers  - << Access-Control-Expose-Headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range
+  [main] DEBUG org.apache.http.headers  - << Cache-Control: public, max-age=0
+  [main] DEBUG org.apache.http.headers  - << Authentication-Callback: http://www.themoviedb.org/authenticate/52631ff99b5a4b6d286156a8d5d6b976d02a9bed
+  [main] DEBUG org.apache.http.headers  - << ETag: W/"0a05da9c496ebbaf7bba9829e567e481"
+  [main] DEBUG org.apache.http.headers  - << Content-Encoding: gzip
+  [main] DEBUG org.apache.http.headers  - << Vary: Accept-Encoding
+  [main] DEBUG org.apache.http.headers  - << X-Cache: Miss from cloudfront
+  [main] DEBUG org.apache.http.headers  - << Via: 1.1 58e580cc043cb16a24dd53c7ad22b8d5.cloudfront.net (CloudFront)
+  [main] DEBUG org.apache.http.headers  - << X-Amz-Cf-Pop: BOG50-C1
+  [main] DEBUG org.apache.http.headers  - << X-Amz-Cf-Id: 2vjBD83tFTA83hf7ia6fDWRP_dyNrk9Rz_eDHQeizJuMZAvE1gfLxw==
+  [main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+  [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json;charset=utf-8
+  [main] DEBUG org.apache.http.wire  -  << "7d[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][\r][0xca]I[\n]"
+  [main] DEBUG org.apache.http.wire  -  << "[0xc3]0[0xc][0x0][0xc0][0xaf][0x4][0x9d][0x13][0xb0][0x95]X[0x95]|[0xed][0x17][0xda]s[0xb0]#[0x5]J[0xa1][0x8b][0x17]([0x94][0xfe]=[0x9d][0xf3]|[0xa1][0xf6]m[0xb3]Z![0xb6][0xd2]m[0x4][0xfb][0xbc]n[0xc5][0xea][0x9a][0x1a]D@[0x87]~r<![\r]^[0xa2][0xe7]8[0xf3]p[0xbd][0x9c]a[0x84]b[0xef]n[0xb5][0xad][0xed]y[0xb7][0xc7][0x6][0xa4][0xd9][0xef][0xbb]H[0xe]i[0xc9][0xa4][0xc8][0xe4][0x3]%[0xd6][0xa0][0x94][0xe5]D[0xea]0I6[0x85][0xdf][0x1][0x1][0x90]e[0x0]r[0x0][0x0][0x0]"
+  [main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "0[\r][\n]"
+  [main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+  [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+  [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@83298d7
+  [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+  

@@ -1,0 +1,6 @@
+Authentication.class
+ListCreation.class
+data\ListsDataProvider.class
+Search.class
+data\AuthenticationDataProvider.class
+data\MoviesProvider.class

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="13" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="10" started-at="2021-08-27T15:22:56 COT" finished-at="2021-08-27T15:22:56 COT">
+    <groups>
+    </groups>
+    <test name="Group of group Test" duration-ms="10" started-at="2021-08-27T15:22:56 COT" finished-at="2021-08-27T15:22:56 COT">
+    </test> <!-- Group of group Test -->
+  </suite> <!-- Group of group Suite -->
+  <suite name="Parallel tests" duration-ms="9332" started-at="2021-08-27T15:22:56 COT" finished-at="2021-08-27T15:23:06 COT">
+    <groups>
+    </groups>
+    <test name="Test One" duration-ms="9332" started-at="2021-08-27T15:22:56 COT" finished-at="2021-08-27T15:23:06 COT">
+      <class name="Authentication">
+        <test-method status="PASS" signature="loginInvalid(java.lang.String,java.lang.String)[pri:0, instance:Authentication@13c27452]" name="loginInvalid" duration-ms="3844" started-at="2021-08-27T15:22:57 COT" data-provider="InvalidCredentials" finished-at="2021-08-27T15:23:01 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[juankg214]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lapiz452]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method status="PASS" signature="loginInvalid(java.lang.String,java.lang.String)[pri:0, instance:Authentication@13c27452]" name="loginInvalid" duration-ms="603" started-at="2021-08-27T15:23:01 COT" data-provider="InvalidCredentials" finished-at="2021-08-27T15:23:02 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[juankg215]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lapiz453]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method status="PASS" signature="loginSuccessful(java.lang.String,java.lang.String)[pri:0, instance:Authentication@13c27452]" name="loginSuccessful" duration-ms="667" started-at="2021-08-27T15:23:02 COT" data-provider="ValidCredentials" finished-at="2021-08-27T15:23:02 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[juankg214]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lapiz453]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessful -->
+      </class> <!-- Authentication -->
+      <class name="Search">
+        <test-method status="PASS" signature="search(java.lang.String,java.lang.String)[pri:0, instance:Search@371a67ec]" name="search" duration-ms="148" started-at="2021-08-27T15:23:06 COT" data-provider="Movies" finished-at="2021-08-27T15:23:06 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[matrix]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String,java.lang.String)[pri:0, instance:Search@371a67ec]" name="search" duration-ms="127" started-at="2021-08-27T15:23:06 COT" data-provider="Movies" finished-at="2021-08-27T15:23:06 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[terror]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- Search -->
+      <class name="ListCreation">
+        <test-method status="PASS" signature="AddMovieToList(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ListCreation@262b2c86]" name="AddMovieToList" duration-ms="1271" started-at="2021-08-27T15:23:02 COT" data-provider="ListValid" finished-at="2021-08-27T15:23:04 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anime2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weeb2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method status="PASS" signature="AddMovieToList(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ListCreation@262b2c86]" name="AddMovieToList" duration-ms="509" started-at="2021-08-27T15:23:04 COT" data-provider="ListValid" finished-at="2021-08-27T15:23:04 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Novelas2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mexicanas, Colombianas2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method status="PASS" signature="AddMovieToList(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ListCreation@262b2c86]" name="AddMovieToList" duration-ms="531" started-at="2021-08-27T15:23:04 COT" data-provider="ListValid" finished-at="2021-08-27T15:23:05 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rapido y Furioso2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Familia2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMovieToList -->
+        <test-method status="PASS" signature="createListValid(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ListCreation@262b2c86]" name="createListValid" duration-ms="259" started-at="2021-08-27T15:23:05 COT" data-provider="ListValid" finished-at="2021-08-27T15:23:05 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anime2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weeb2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListValid -->
+        <test-method status="PASS" signature="createListValid(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ListCreation@262b2c86]" name="createListValid" duration-ms="299" started-at="2021-08-27T15:23:05 COT" data-provider="ListValid" finished-at="2021-08-27T15:23:05 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Novelas2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mexicanas, Colombianas2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListValid -->
+        <test-method status="PASS" signature="createListValid(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ListCreation@262b2c86]" name="createListValid" duration-ms="274" started-at="2021-08-27T15:23:05 COT" data-provider="ListValid" finished-at="2021-08-27T15:23:05 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rapido y Furioso2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Familia2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListValid -->
+      </class> <!-- ListCreation -->
+    </test> <!-- Test One -->
+  </suite> <!-- Parallel tests -->
+</testng-results>

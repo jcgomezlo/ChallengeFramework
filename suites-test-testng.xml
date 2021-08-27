@@ -1,0 +1,10 @@
+<suite name="Parallel tests"  thread-count="1" >
+    <test name="Test One">
+        <parameter name="test-name" value="Test One"/>
+        <classes>
+            <class name="Authentication" />
+            <class name="ListCreation" />
+            <class name="Search" />
+        </classes>
+    </test>
+</suite>

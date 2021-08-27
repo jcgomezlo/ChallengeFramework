@@ -1,0 +1,72 @@
+2021-08-26 13:16:00 DEBUG Main:8 - This is Debug
+2021-08-26 13:17:06 DEBUG SampleTest:21 - Test Iniciado
+2021-08-26 13:17:08 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://api.themoviedb.org:443
+2021-08-26 13:17:08 DEBUG DefaultClientConnectionOperator:177 - Connecting to api.themoviedb.org:443
+2021-08-26 13:17:09 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-08-26 13:17:09 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2021-08-26 13:17:09 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-08-26 13:17:09 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-08-26 13:17:09 DEBUG DefaultHttpClient:677 - Attempt 1 to execute request
+2021-08-26 13:17:09 DEBUG DefaultClientConnection:274 - Sending request: GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1
+2021-08-26 13:17:09 DEBUG wire:73 -  >> "GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  >> "Host: api.themoviedb.org[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  >> "[\r][\n]"
+2021-08-26 13:17:09 DEBUG headers:278 - >> GET /3/authentication/token/new?api_key=70e5d92b560911960f954e6433e8daa1 HTTP/1.1
+2021-08-26 13:17:09 DEBUG headers:281 - >> Accept: */*
+2021-08-26 13:17:09 DEBUG headers:281 - >> Host: api.themoviedb.org
+2021-08-26 13:17:09 DEBUG headers:281 - >> Connection: Keep-Alive
+2021-08-26 13:17:09 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_301)
+2021-08-26 13:17:09 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2021-08-26 13:17:09 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Date: Thu, 26 Aug 2021 18:17:00 GMT[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Server: openresty[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Access-Control-Expose-Headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Cache-Control: public, max-age=0[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Authentication-Callback: http://www.themoviedb.org/authenticate/a70061f6ff9d49f390fdd4e5823149a93f52d857[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "ETag: W/"4a5944f429291240ac81efaec278f232"[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "X-Cache: Miss from cloudfront[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "Via: 1.1 568ad9caa2120691717b6a64d150a265.cloudfront.net (CloudFront)[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "X-Amz-Cf-Pop: BOG50-C1[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "X-Amz-Cf-Id: _Q-kDL2dYlrHTXL8_augfgEEqHG170wD9kh_w7Io8EfvFe-643LOzg==[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "[\r][\n]"
+2021-08-26 13:17:09 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-08-26 13:17:09 DEBUG headers:262 - << HTTP/1.1 200 OK
+2021-08-26 13:17:09 DEBUG headers:265 - << Content-Type: application/json;charset=utf-8
+2021-08-26 13:17:09 DEBUG headers:265 - << Transfer-Encoding: chunked
+2021-08-26 13:17:09 DEBUG headers:265 - << Connection: keep-alive
+2021-08-26 13:17:09 DEBUG headers:265 - << Date: Thu, 26 Aug 2021 18:17:00 GMT
+2021-08-26 13:17:09 DEBUG headers:265 - << Server: openresty
+2021-08-26 13:17:09 DEBUG headers:265 - << Access-Control-Allow-Origin: *
+2021-08-26 13:17:09 DEBUG headers:265 - << Access-Control-Allow-Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS
+2021-08-26 13:17:09 DEBUG headers:265 - << Access-Control-Expose-Headers: ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After, Content-Length, Content-Range
+2021-08-26 13:17:09 DEBUG headers:265 - << Cache-Control: public, max-age=0
+2021-08-26 13:17:09 DEBUG headers:265 - << Authentication-Callback: http://www.themoviedb.org/authenticate/a70061f6ff9d49f390fdd4e5823149a93f52d857
+2021-08-26 13:17:09 DEBUG headers:265 - << ETag: W/"4a5944f429291240ac81efaec278f232"
+2021-08-26 13:17:09 DEBUG headers:265 - << Content-Encoding: gzip
+2021-08-26 13:17:09 DEBUG headers:265 - << Vary: Accept-Encoding
+2021-08-26 13:17:09 DEBUG headers:265 - << X-Cache: Miss from cloudfront
+2021-08-26 13:17:09 DEBUG headers:265 - << Via: 1.1 568ad9caa2120691717b6a64d150a265.cloudfront.net (CloudFront)
+2021-08-26 13:17:09 DEBUG headers:265 - << X-Amz-Cf-Pop: BOG50-C1
+2021-08-26 13:17:09 DEBUG headers:265 - << X-Amz-Cf-Id: _Q-kDL2dYlrHTXL8_augfgEEqHG170wD9kh_w7Io8EfvFe-643LOzg==
+2021-08-26 13:17:09 DEBUG DefaultHttpClient:504 - Connection can be kept alive indefinitely
+2021-08-26 13:17:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json;charset=utf-8
+2021-08-26 13:17:09 DEBUG wire:73 -  << "7b[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][\r][0xca]K[\n]"
+2021-08-26 13:17:09 DEBUG wire:87 -  << "[0x2]1[0xc][0x0][0xd0][0xab][0xc]Y[0xcf]@[0x9a]~[0xd3][0xad]W[0xd0][0xf5]P[0xa6][0x9][0x88][0xe0][0xa7][0x1f][0x10][0xc4][0xbb][0xeb][[0xbf][0xf][0xf4]y[0x1c][0xd2];[0xe4][0xd1][0xa6][0xac] [0xef][0xe7][0xb5]I[0xdf][0xcb][0x80][0xc][0x84]d6L[0x1b][0x85][0xc5]p61#.[0x97][0xf3][0x9]Vh[0xf2][0x9a][0xd2][0xc7]>[0x1e]7[0xb9][0xff]g[0x89][0x88][0xc1]hP[0xe5][0xea]X-[0xa3][0xd6][0xea][0xc4]'[0xb2][0xc6]qa[0xab][0x9e]j[0xf2][0x11][0xbe]?[0xcc][0x15]^Vr[0x0][0x0][0x0]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "0[\r][\n]"
+2021-08-26 13:17:09 DEBUG wire:73 -  << "[\r][\n]"
+2021-08-26 13:17:09 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-08-26 13:17:09 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6c8bca63
+2021-08-26 13:17:09 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
